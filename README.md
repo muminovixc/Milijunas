@@ -30,6 +30,6 @@ The further you progress, the more money you can win.
 🧪 This is my first javascript project!
 
 📄 License
-This project is for educational purposes and was developed as part of coursework. It is open for improvement, feedback, and contributions.
+This project is for educational purposes, developed as part of the course at the Faculty of Sciences and Mathematics, University of Sarajevo.
 
 
