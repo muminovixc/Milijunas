@@ -301,7 +301,7 @@ function provjeriOdgovor(konacno) {
                 setTimeout(function e1(){
                     alert("čestitamo, Postali ste milioner!")
                 
-                window.location.href = "milioner.html";
+                window.location.href = "index.html";
                 },3000)
                 }
             
