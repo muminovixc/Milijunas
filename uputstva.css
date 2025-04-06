@@ -1,35 +1,84 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --text-color: #ffffff;
+  --hover-color: #2980b9;
+}
+
 body {
-    background-image:url(pozadina.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  background-image: url(pozadina.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+  background: rgba(44, 62, 80, 0.9);
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.text-center {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.text-white-50 {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.bi {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    margin: 1rem;
+    padding: 1.5rem;
   }
-  html {
-    height: 110%
+
+  .text-center {
+    font-size: 2rem;
   }
-  .box{
-    border: 10px solid rgb(24, 8, 50);
-    height: 800px;
-    width: 100%;
+
+  .text-white-50 {
+    font-size: 1.1rem;
   }
-  
-  .text-center{
-    font-size: 30px;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-   .text-white-50{
-        font-size: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-  @media screen and (max-width: 600px){
-    html{
-        height: 200%;
-    }
-    .box{
-      height: 100%;
-    }
+}
+
+@media screen and (max-width: 480px) {
+  .box {
+    margin: 0.5rem;
+    padding: 1rem;
   }
-  .bi{
-    color: white;
+
+  .text-center {
+    font-size: 1.5rem;
   }
+
+  .text-white-50 {
+    font-size: 1rem;
+  }
+}
   
